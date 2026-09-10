@@ -1,0 +1,4 @@
+import math
+radius = float(input("Enter the radius of circle:"))
+area_of_circle = math.pi * pow(radius, 2)
+print(f"The are of circle is: {round(area_of_circle, 2)}")
